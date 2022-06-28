@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="sass/main.css">
+</head>
+<body>
+    <main class="exercicio-main">
+
+        <div class="exercicio-main__progressbar">
+            <div class="progress-exercicio">
+                <div class="progress-exercicio__close-btn"></div>
+                <div class="progress-exercicio__progress-bar">
+                    <div class="progress">
+                        <div class="progress__bar" role="progressbar" style="width: 50%;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                </div>
+                <div class="progress-exercicio__closes-btn">5/10</div>
+            </div>
+        </div>
+
+        <div class="exercicio-main__exercicio">
+            <div class="exercicio-content">
+                <h1 class="exercicio-content__title type--headline-5" id="group_label_pergunta">O que foi o Congresso de Milão?</h1>
+                <div class="group-radiogroup-exercicio" aria-label="escolha" aria-labelledby="group_label_pergunta" role="radiogroup" id="rb_pergunta">
+                    <div class="group-radiogroup-exercicio__item" aria-checked="true" aria-disabled="false" role="radio" tabindex="0">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nisl turpis, volutpat eget suscipit vitae, vestibulum nec nibh.
+                    </div>
+                    <div class="group-radiogroup-exercicio__item" aria-checked="false" aria-disabled="false" role="radio" tabindex="-1">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nisl turpis, volutpat eget suscipit vitae, vestibulum nec nibh.
+                    </div>
+                    <div class="group-radiogroup-exercicio__item" aria-checked="false" aria-disabled="false" role="radio" tabindex="-1">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nisl turpis, volutpat eget suscipit vitae, vestibulum nec nibh.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="exercicio-main__action">
+            <!-- neutro -->
+            <!-- <div class="exercicio-player-footer">
+                <div class="exercicio-player-footer__container">
+                    <div>
+                        <button class="button button--filled" type="submit">Verificar</button>
+                    </div>
+                </div>
+            </div> -->
+
+            <!-- certo -->
+            <!-- <div class="exercicio-player-footer exercicio-player-footer--correct">
+                <div class="exercicio-player-footer__container exercicio-player-footer__container--correct">
+                    <div class="exercicio-player-footer__item-status">
+                        <div class="badge-status">
+
+                        </div>
+                        <div class="exercicio-player-footer__text-status type--headline-5">
+                            Muito bem, você acertou.
+                        </div>
+                    </div>
+                    <div class="exercicio-player-footer__item-action">
+                        <button class="button button--filled" type="submit">Continuar</button>
+                    </div>
+                </div>
+            </div> -->
+
+            <!-- incorreto -->
+            <div class="exercicio-player-footer exercicio-player-footer--incorrect">
+                <div class="exercicio-player-footer__container exercicio-player-footer__container--incorrect">
+                    <div class="exercicio-player-footer__item-status">
+                        <div class="badge-status">
+
+                        </div>
+                        <div class="exercicio-player-footer__text-status type--headline-5">
+                            Muito bem, você acertou.
+                        </div>
+                    </div>
+                    <div class="exercicio-player-footer__item-action">
+                        <button class="button button--filled" type="submit">Continuar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+    <script src="js/exercicio-1.js"></script>
+</body>
+</html>
